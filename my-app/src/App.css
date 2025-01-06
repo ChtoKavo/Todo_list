@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+input[type="text"] {
+  align-items: center;
+  width: 97.5%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: rgb(80, 80, 252);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени */
+}
+
+button:hover {
+  background-color: #0010f7;
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.divlol {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboba {
+  margin-top: 10px;
+}
+
+.deletebt {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  margin-top: 10px;
+}
