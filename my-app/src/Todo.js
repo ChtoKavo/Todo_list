@@ -5,7 +5,7 @@ const Todo = ({ todo, onDelete }) => {
   return (
     <div class = "aaa">
       <span>{todo.text}</span>
-      <button class = "deletebt" onClick={() => onDelete(todo.id)}>Удалить, да, удалить </button>
+      <button class = "deletebt" onClick={() => onDelete(todo.id)}> Удалить </button>
     </div>
   );
 };
